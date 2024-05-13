@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = poker
+<<<<<<< HEAD
 build_property.ProjectDir = D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\
+=======
+build_property.ProjectDir = C:\Users\hu3gi\OneDrive\Documentos\Estrutura\Poker-Teste\Poker-Teste\poker_base-M2\poker\
+>>>>>>> ca0f1a72d3fcd423fc7413b9f0bcc2bffc9248b1
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

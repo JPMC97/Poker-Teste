@@ -12,7 +12,7 @@ namespace poker.code.model.hand_ranks.ranks
           
 
         // Encapsulamento: Método público que encapsula a inicialização dos estados da classe Flush.
-        public Flush (List<List<Card>> h) : base (h) 
+        public Flush (List<List<Card>> h) : base (h)
         {
             player = new List<Card>();
             flush = new List<List<Card>>();

@@ -16,7 +16,7 @@ namespace poker.code.model.hand_ranks.ranks
             straightFlush = new List<List<Card>>(); // Inicializa a lista de listas de cartas para o Straight Flush
         }
         
-        // Implementação específica da classe StraightFlush para o método abstrato da classe base
+         //Implementação específica da classe StraightFlush para o método abstrato da classe base
         public override bool check()
         {
             if (check_straight() && find_owner())

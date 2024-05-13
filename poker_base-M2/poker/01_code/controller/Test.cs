@@ -51,16 +51,32 @@ public class Test
                 draw_single(high);
                 break;
             case "02.csv":
-                ShowText.print_text("Not implemented yet!");
+                OnePair one = new OnePair(histogram.get_histogram());
+                check_ = one.check();
+                Console.WriteLine("check_: " + check_);
+                rank_name  = "02.csv - OnePair";
+                draw_single(one);
                 break;
             case "03.csv":
-                ShowText.print_text("Not implemented yet!");
+                TwoPair two = new TwoPair(histogram.get_histogram());
+                check_ = two.check();
+                Console.WriteLine("check_: " + check_);
+                rank_name  = "03.csv - TwoPair";
+                draw_single(two);
                 break;
             case "04.csv":
-                ShowText.print_text("Not implemented yet!");
+                ThreeofaKind three = new ThreeofaKind(histogram.get_histogram());
+                check_ = three.check();
+                Console.WriteLine("check_: " + check_);
+                rank_name = "04.csv - ThreeofaKind";
+                draw_single(three);
                 break;
             case "05.csv":
-                ShowText.print_text("Not implemented yet!");
+                Straight straightCards = new Straight(histogram.get_histogram());
+                check_ = straightCards.check();
+                Console.WriteLine("check_: " + check_);
+                rank_name = "04.csv - Straight";
+                draw_single(straightCards);
                 break;
             case "06.csv":
                 Flush flush = new Flush(histogram.get_histogram());
@@ -70,10 +86,18 @@ public class Test
                 draw_single(flush);
                 break;
             case "07.csv":
-                ShowText.print_text("Not implemented yet!");
+                FullHouse full = new FullHouse(histogram.get_histogram());
+                check_ = full.check();
+                Console.WriteLine("check_: " + check_);
+                rank_name = "07.csv - FullHouse";
+                draw_single(full);
                 break;
             case "08.csv":
-                ShowText.print_text("Not implemented yet!");
+                FourOfKind four = new FourOfKind(histogram.get_histogram());
+                check_ = four.check();
+                Console.WriteLine("check_: " + check_);
+                rank_name = "08.csv - FourOfKind";
+                draw_single(four);
                 break;
             case "09.csv":
                 StraightFlush straightFlush = new StraightFlush(histogram.get_histogram());

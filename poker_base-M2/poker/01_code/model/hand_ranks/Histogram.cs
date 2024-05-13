@@ -1,4 +1,3 @@
-//m4rc3lo - 2024-04-23
 namespace poker.code.model.hand_ranks;
 
 public class Histogram
