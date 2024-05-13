@@ -1,4 +1,3 @@
-//m4rc3lo - 2024-04-23
 using System;
 using System.Collections.Generic;
 using poker.code.model;

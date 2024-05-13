@@ -1,4 +1,3 @@
-//m4rc3lo - 26/04/202
 using poker.code.view;
 using poker.code.model;
 using poker.code.model.hand_ranks;
@@ -64,7 +63,11 @@ public class Test
                 ShowText.print_text("Not implemented yet!");
                 break;
             case "06.csv":
-                ShowText.print_text("Not implemented yet!");
+                Flush flush = new Flush(histogram.get_histogram());
+                check_ = flush.check();
+                Console.WriteLine("check_: " + check_);
+                rank_name = "06.csv - Flush";
+                draw_single(flush);
                 break;
             case "07.csv":
                 ShowText.print_text("Not implemented yet!");
@@ -73,7 +76,11 @@ public class Test
                 ShowText.print_text("Not implemented yet!");
                 break;
             case "09.csv":
-                ShowText.print_text("Not implemented yet!");
+                StraightFlush straightFlush = new StraightFlush(histogram.get_histogram());
+                check_ = straightFlush.check();
+                Console.WriteLine("check_: " + check_);
+                rank_name = "09.csv - StraightFlush";
+                draw_single(straightFlush);
                 break;
             case "10.csv":
                 RoyalFlush royal = new RoyalFlush(histogram.get_histogram());
@@ -85,17 +92,22 @@ public class Test
     }
 
     private void draw_single(Ranks rank)    
-    {
-        string msg = rank_name;
-        if (this.check_)
-            msg += " - FOUND!";
-        else
-            msg += " - NOT FOUND!";
+{
+    string msg = rank_name;
+    if (this.check_)
+        msg += " - FOUND!";
+    else
+        msg += " - NOT FOUND!";
 
-        ShowText.show_single(msg);
-        DrawCards.display_cards(loded_cards, Semantic.LEFT, Semantic.CARD_TOP1);
-        DrawCards.display_cards(rank.get_find(), Semantic.LEFT, Semantic.CARD_TOP2);
-        Console.SetCursorPosition(Semantic.LEFT, Semantic.FOOTER);
-        ShowText.show_footer(msg);
+    ShowText.show_single(msg);
+    DrawCards.display_cards(loded_cards, Semantic.LEFT, Semantic.CARD_TOP1);
+    DrawCards.display_cards(rank.get_find(), Semantic.LEFT, Semantic.CARD_TOP2);
+
+    // Verifica se as coordenadas do cursor não ultrapassam os limites do console
+    int left = Math.Max(Semantic.LEFT, 0); // Garante que o valor de left seja positivo
+    int footer = Math.Min(Semantic.FOOTER, Console.WindowHeight - 1); // Garante que o valor de footer esteja dentro das dimensões verticais do console
+    Console.SetCursorPosition(left, footer);
+
+    ShowText.show_footer(msg);
     }
 }
