@@ -1,0 +1,15 @@
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\bin\Debug\net6.0\poker.exe
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\bin\Debug\net6.0\poker.deps.json
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\bin\Debug\net6.0\poker.runtimeconfig.json
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\bin\Debug\net6.0\poker.dll
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\bin\Debug\net6.0\poker.pdb
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\obj\Debug\net6.0\poker.GeneratedMSBuildEditorConfig.editorconfig
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\obj\Debug\net6.0\poker.AssemblyInfoInputs.cache
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\obj\Debug\net6.0\poker.AssemblyInfo.cs
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\obj\Debug\net6.0\poker.csproj.CoreCompileInputs.cache
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\obj\Debug\net6.0\poker.sourcelink.json
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\obj\Debug\net6.0\poker.dll
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\obj\Debug\net6.0\refint\poker.dll
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\obj\Debug\net6.0\poker.pdb
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\obj\Debug\net6.0\poker.genruntimeconfig.cache
+D:\Univali\Poker_M2\Poker-Teste\poker_base-M2\poker\obj\Debug\net6.0\ref\poker.dll
